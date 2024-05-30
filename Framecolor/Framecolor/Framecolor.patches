@@ -1,0 +1,242 @@
+{
+  "id": "950e5bf5de722184aebb995c195f64b0d95",
+  "revision": "7789d408aa5b067a449689d92ffc36e268fd",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 179
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 1,
+    "patch": 0,
+    "prod": 57
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3616-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "fromPatch": "template_patch_model:3614-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:2734-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3626-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "fromPatch": "template_patch_model:3608-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3614-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3940-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "fromPatch": "template_patch_model:3786-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3938-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3944-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "fromPatch": "producer_patch_model:3942-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3938-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:3948-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "fromPatch": "template_patch_model:3938-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:3780-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:947-e5bf5de7-2218-4aeb-b995-c195f64b0d95",
+        "fromPatch": "template_patch_model:3478-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3608-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:949-e5bf5de7-2218-4aeb-b995-c195f64b0d95",
+        "fromPatch": "template_patch_model:3478-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3786-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "toPort": "1"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph: 41-dfdb0757-1943-4c08-8bfe-cb9624e5622f",
+        "subpatches": [
+          "consumer_patch_model:2734-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+          "consumer_patch_model:3780-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+          "producer_patch_model:3942-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+          "template_patch_model:3478-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+          "template_patch_model:3608-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+          "template_patch_model:3614-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+          "template_patch_model:3786-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+          "template_patch_model:3938-134b5992-1546-4f9d-9b40-a2a57b8887cc"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "frame_color_mat",
+        "identifier": "consumer_patch_model:2734-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "object": "defaultMaterial:2612-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "objectProperty": "diffuse_texture_slot",
+        "position": [
+          1772,
+          572
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "speaker0",
+        "identifier": "consumer_patch_model:3780-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "object": "audiosource:3638-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "objectProperty": "sound",
+        "position": [
+          1604,
+          644
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "arl_sfx_UITick_os_01.m4a",
+        "identifier": "producer_patch_model:3942-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "object": "sound:3724-43e0eeba-4805-4d57-90ab-ba3018bf48c2",
+        "position": [
+          1172,
+          548
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Screen Tap",
+        "identifier": "template_patch_model:3478-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "position": [
+          764,
+          356
+        ],
+        "templateId": "builtin.tapGesture"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Counter",
+        "identifier": "template_patch_model:3608-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "position": [
+          1124,
+          308
+        ],
+        "templateId": "builtin.counter"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Option Picker",
+        "identifier": "template_patch_model:3614-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "position": [
+          1508,
+          308
+        ],
+        "templateId": "builtin.variadicOptionPicker",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "vec4",
+              "v": [
+                0.45139238574807355,
+                0.9931029221026932,
+                1,
+                1
+              ]
+            }
+          },
+          {
+            "port": "3",
+            "value": {
+              "t": "vec4",
+              "v": [
+                0.8446631570916304,
+                0.5145647364003967,
+                1,
+                1
+              ]
+            }
+          },
+          {
+            "port": "4",
+            "value": {
+              "t": "vec4",
+              "v": [
+                0,
+                0.9810635538261997,
+                0.5736934462500953,
+                1
+              ]
+            }
+          },
+          {
+            "port": "5",
+            "value": {
+              "t": "vec4",
+              "v": [
+                1,
+                0.18573281452658885,
+                0.5733882658121614,
+                1
+              ]
+            }
+          },
+          {
+            "port": "6",
+            "value": {
+              "t": "vec4",
+              "v": [
+                0.3084000915541314,
+                0.5618219272144656,
+                0,
+                1
+              ]
+            }
+          }
+        ],
+        "variadicInfo": {
+          "input": 5
+        },
+        "variantInfo": "color"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Multi-Clip Controller",
+        "identifier": "template_patch_model:3786-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "position": [
+          1076,
+          620
+        ],
+        "templateId": "builtin.audioOneShotController"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Audio Player",
+        "identifier": "template_patch_model:3938-134b5992-1546-4f9d-9b40-a2a57b8887cc",
+        "position": [
+          1364,
+          620
+        ],
+        "templateId": "builtin.audioPlayer"
+      }
+    ]
+  }
+}
